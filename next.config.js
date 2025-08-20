@@ -16,12 +16,12 @@ const isProd = process.env.NODE_ENV === 'production';
 const repoName = 'somchi.github.io';
 
 const nextConfig = {
-  output: 'export',
-  basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
-  env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repoName}` : '',
-  },
+  //output: 'export',
+ // basePath: isProd ? `/${repoName}` : '',
+  //assetPrefix: isProd ? `/${repoName}/` : '',
+ // env: {
+ //   NEXT_PUBLIC_BASE_PATH: isProd ? `/${repoName}` : '',
+ // },
 };
 
 module.exports = nextConfig;
